@@ -1,0 +1,96 @@
+ @charset "UTF-8";
+.model{
+    width: 800px;
+    height: 600px;
+    background: white;
+    margin: 0 auto;
+}
+.modelLogin{
+    width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+.model>p{
+    width: 420px;
+    left: calc(50% - 210px);
+    position: relative;
+    top: 25px;
+    margin-top: 15px;
+}
+.model>p>input{
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    background-color: #f7f7f7;
+    width: 420px;
+    height: 44px;
+    outline: none;
+    border: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 110px;
+}
+.model>p>label{
+    display: inline-block;
+    width: 110px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.model>p>.code{
+    position: absolute;
+    right: 5px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+    color: #007dff;
+}
+.rigeter{
+    margin-top: 30px!important;
+    text-align: center;
+}
+.rigeter>button{
+    width: 220px;
+    height: 40px;
+    margin: 0 auto;
+    color: white;
+    background-color: #B40707;
+    border: 0;
+    cursor: pointer;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius: 30px;
+    outline: none;
+}
+.checked{
+    font-size: 12px;
+}
+.model>p>input.check{
+    width: 14px;
+    height: 14px;
+    text-align: left;
+    position: relative;
+    top: 2px;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+i{
+    color: darkred;
+    display: none;
+}
+#getCode{
+    display: inline-block;
+    width: 100px!important;
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}

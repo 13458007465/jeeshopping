@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--百度小蜘蛛-->
+    <meta name="applicable-device" content="pc,mobile">
+    <!--SEO-->
+    <meta name="keywords" content="jeep">
+    <meta name="description" content="jeep">
+    <!--响应式，PC移动端都需添加，防止百度转码后想网页中添加额外广告-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!--优先使用IE最新版本和chrome-->
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=Edge,chrome=1">
+    <!--网页标签缩略图-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="Bookmark" href="favicon.ico" type="image/x-icon">
+    <!--[if lt IE9]>
+    <script
+            src="http://cdn.bootcss.com/livingston-css3-mediaqueries-js/1.0.0/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    <title>注册登陆</title>
+    <link rel="stylesheet" href="stylesheets/details-style.css">
+    <link rel="stylesheet" href="stylesheets/login.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <ul>
+            <li><a href="javascript:;"><i>&#xe603;</i>在线客户</a></li>
+            <li><a href="javascript:;"><i>&#xe790;</i>我的购物车</a></li>
+            <li class="loginbtn"><a href="javascript:;"><i>&#xe600;</i>注册/登陆</a></li>
+        </ul>
+    </div>
+</header>
+<nav class="nav-top">
+    <div class="nav">
+        <p><a href="javascript:;"><img src="images/nav_logo.png"></a></p>
+        <ul>
+            <li class="nav-color"><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">jeep注册</a></li>
+        </ul>
+        <div class="wechat">
+            <i>&#xe60a;</i>
+            <div class="code1"></div>
+            <div class="code">
+                <span>即刻扫码关注Jeep商城微信</span>
+                <span>更多商城活动信息即时送达</span>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</nav>
+<main>
+    <p class="modelLogin">已有账号 <a href="javascript:;">登录</a></p>
+    <div class="model">
+        <p><label>用&nbsp;户&nbsp;名：</label><input type="text" class="username" value="" placeholder="请输入用户名"><i>用户名必须全汉字</i></p>
+        <p><label>手&nbsp;机&nbsp;号：</label><input type="text" class="phone" value="" placeholder="请输入你的手机号"><i>请输入正确的手机号</i></p>
+        <p><label>验&nbsp;证&nbsp;码：</label><input type="text" value="" class="codeNum" placeholder="输入你的手机验证码"><span class="code" id="getCode">获取验证码</span><i>验证码错误</i></p>
+        <p><label>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</label><input type="email" class="email" value="" placeholder="请输入你的邮箱"><i>邮箱错误</i></p>
+        <p><label>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label><input type="password" class="pwd" value="" placeholder="请输入你的密码"><i>密码长度不够</i></p>
+        <p><label>重复密码：</label><input type="password" class="repwd" value="" placeholder="请确定你的密码"><i>两次密码不一致</i></p>
+
+        <p class="checked"><input type="checkbox" class="check"><span>我已同意当前协议</span><i>请先同意协议</i>
+        </p>
+        <p class="rigeter"><button type="button" id="rigeter">注册</button></p>
+        <p>已经自动删除所有的空格</p>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <p><a href="javascript:;">Global Site</a><a href="javascript:;">隐私条款</a><a href="javascript:;">联系我们</a>
+            <a href="javascript:;">加入我们</a><a href="javascript:;">网站地图</a><a href="javascript:;" style="border-right: 0;">手机版</a>
+            <i></i><i></i><i></i>
+        </p>
+        <p>网站中所有产品图片及文字说明均有可能变更。克莱斯勒[中国]汽车销售有限公司/广汽菲亚特克莱斯勒汽车销售有限公司保留对所描述车型进行更改的权利，<br>
+            并且任何时候都无需承担因以产品改进为目的的设计和[或]市场营销等原因而必须提前通知的义务。<br>
+            沪ICP备09014236号-12
+        </p>
+    </div>
+</footer>
+<script src="javascript/rigeter.js"></script>
+
+</body>
+</html>
